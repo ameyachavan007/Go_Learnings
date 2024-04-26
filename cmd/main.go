@@ -1,10 +1,11 @@
 package main
+
 import (
-  "fmt"
-  "os"
-  "hello"
+	"fmt"
+	"hello"
+	"os"
 )
 
-func main () {
-  fmt.Printf(hello.Say(os.Args[1:]))
+func main() {
+	fmt.Printf(hello.Say(os.Args[1:]))
 }
