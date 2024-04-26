@@ -8,6 +8,7 @@ import (
 
 func main() {
 	fmt.Printf(hello.Say(os.Args[1:]))
-	hello.Example()
-	hello.GetAverage()
+	// hello.Example()
+	// hello.GetAverage()
+  hello.SearchAndReplace()
 }
